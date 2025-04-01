@@ -15,7 +15,7 @@ This is the **Python environment** required for running the model. To activate t
 This is the **main model code** which includes:
 - **Flask API** for serving requests.
 - **Retrieval-Augmented Generation (RAG)** mechanism.
-- **Huggingface Llama3.2-3B** Model for generating responses.
+- **Deepseek R1** Model for generating responses.
 
 ### `requirements.txt`
 This file lists all the required libraries and dependencies for running the project. To install the dependencies, use the following command: pip install -r requirements.txt
