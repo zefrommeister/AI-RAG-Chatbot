@@ -1,0 +1,1485 @@
+[
+
+{
+    "instruction": "How to search Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": "The system allows searching by different parameters such as document number, party name, or document date range.
+    If you have the exact CJV document number, this is the fastest method, as it directly retrieves the record.
+    If the document number is unknown, searching by party and date range helps narrow down the results.
+    By following these steps, you ensure an efficient and accurate retrieval of CJV records."
+},
+
+        {
+            "instruction": "How to create a Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "Click Add button to create a new CJV record,
+                Edit properties such as date and party,
+                Click Save and Select Docs page comes out,
+                Select docs for knock off and click confirm,
+                Finally, click Add CJV to generate"
+            
+        },
+        {
+    "instruction": "How to Approve/Unapprove/Cancel a Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": 
+        "1. Navigate to the Function Menu located in the top-right corner.
+         2. Select the appropriate action: Approve, Unapprove, or Cancel."
+	},
+
+        {
+    	"instruction": "What is an Audit Journal Voucher (AJV)?",
+    	"input": "",
+    	"output": "An Audit Journal Voucher (AJV) is a document specifically used to record audit adjustment entries in the accounting system."
+	},
+
+
+	{
+            "instruction": "What is Audit Journal Voucher (AJV) in Chinese",
+	    "input": "",
+            "output": 
+                "审计日志凭证（AJV）是专门用于在会计系统中记录审计调整分录的文件。"
+            
+        },
+
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "A Contra Journal Voucher (CJV) is used to facilitate internal offset billings between parties, ensuring the Statement of Account (SOA) is cleared."
+            
+        },
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV) in Chinese",
+	    "input": "",
+            "output": 
+                "抵销日志凭证（CJV）用于与对方进行内部抵销计费，以确保对账单（SOA）被清除。"
+            
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV)",
+	    "input": "",
+            "output": 
+                "The Fix Template (FJV) is designed to simplify the creation of standard recurring journal entries. Users can copy an existing FJV, make necessary updates (e.g., month description, amount changes), and use it to generate General Journal Vouchers (GJV) or Reverse Journal Vouchers (RJV)."
+           
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV) in Chinese",
+	    "input": "",
+            "output": 
+                "固定模板（FJV）是一个用于简化标准周期性日志创建的模板。用户可以复制现有的FJV，进行必要的更新（例如，月份描述、金额变化），然后生成普通日志凭证（GJV）或反向日志凭证（RJV）。"
+           
+        },
+
+	{
+            "instruction": "What is General Journal Voucher",
+	    "input": "",
+            "output": 
+                "A General Journal Voucher (GJV) is used to record accruals and provisions in the accounting system, such as monthly audit fee accruals or bonus provisions."
+            
+        },
+
+	{
+            "instruction": "What is General Journal Voucher (GJV) in Chinese",
+	    "input": "",
+            "output": 
+                "普通日志凭证（GJV）用于在会计系统中记录应计费用和准备金，例如每月审计费用应计或奖金准备金。"
+            
+        },
+
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV)",
+	    "input": "",
+            "output": 
+                "A Reverse Journal Voucher (RJV) is used to automatically reverse the current month's journal entries in the following month's accounts. This includes job accruals, deferred accruals, and AR/AP revaluations."
+            
+        },
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV) in Chinese",
+	    "input": "",
+            "output": 
+                "反向日志凭证（RJV）用于在下个月的账户中自动抵消本月的会计分录，包括工作应计、递延应计以及应收账款和应付账的重新估值。"
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV)",
+	    "input": "",
+            "output": 
+                "The Void Journal Voucher (VJV) is no longer in use. Unwanted or incorrect journal entries are canceled before they are posted to the accounts. If the entry has already been posted and the accounting period is closed, a General Journal Voucher (GJV) is created to rectify the error."
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV) in Chinese",
+	    "input": "",
+            "output": 
+                "作废日志凭证（VJV）已不再使用。我们通常在未过账到会计系统时取消不需要的或错误的日志。如果已经过账且会计期间已关闭，则通过普通日志凭证（GJV）来更正错误。"
+            
+        },
+
+
+	{
+            "instruction": "What is Period by Date Rule",
+	    "input": "",
+            "output": 
+                "The Period by Date Rule categorizes documents based on specific dates:
+                 - **Outstanding Payments (OP)**: Categorized by the Approve Date.
+                 - **Accounts (AC) and Payments (PV)**: Categorized by the Paid Date."
+        },
+
+
+
+{
+	    "instruction": "What is the difference between Close Job by Date and Billing Closed",
+	    "input": "",
+            "output": 
+                "- **Close Job by Date**: Closes all jobs (both LCL and FCL types) and their associated billings.
+                 - **Post Billing Doc**: Closes only the billing, allowing users to add new billing documents to a closed job without reopening the job."
+            
+	
+},
+
+{
+	    "instruction": "How to send the carrier SI EDI file via CargoSmart",
+	    "input": "",
+            "output": 
+                "1. Navigate to **eDocument (Generation)**.
+                 2. Select the **Carrier EDI - CargoSmart SI** format.
+                 3. Click the **Generate Report** button.
+                 4. Locate the generated record and click the **Circular Arrow** icon in the EDI column.
+                 5. In the pop-up window, choose **CargoSmart - Carrier SI**.
+                 6. Click the **Send API** button to complete the process."
+},
+
+{
+	    "instruction": "How to download Outstanding Documents and email",
+	    "input": "",
+            "output": 
+                "1. After performing a search, select the desired documents from the list.
+                 2. At the top-right corner:
+                 - Click **Save** to download the documents as a single PDF.
+                 - Click **Email as One** to send all documents compiled into one PDF.
+                 - Click **Email All** to send each document as a separate PDF."          
+},
+
+{
+	    "instruction": "What are the actions for triggering refresh P&L job via auto-refresh P&L",
+	    "input": "",
+            "output": 
+                "The following actions trigger a refresh of the P&L job via auto-refresh:
+                 1. **Job Content Updates**: Any creation or modification of job content.
+                 2. **Booking Updates**: Any creation, modification, or deletion of a booking under the job.
+                 3. **Cargo Updates**: Changes to container, package quantity, M3, or weight under the job.
+                 4. **A/C Document Approval**: Approving or unapproving any A/C documents under the job.
+                 5. **Unapproved PS Modifications**: Any changes to unapproved PS with Accrual set to Y."
+        
+},
+
+{
+	    "instruction": "How to reset my FMS password",
+	    "input": "",
+            "output": 
+                "1. Go to the **FMS login page** and click the **Reset Password** link.
+                 2. A new password will be sent to your registered email address.
+                 3. If you encounter any issues, contact the **IT department** for further assistance."
+},
+
+{
+	 "instruction": "How to reset my FMS password in Chinese",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	 "instruction": "如何重置FMS密码?",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	    "instruction": "Why does Outlook keep popping up login credentials",
+	    "input": "",
+            "output": 
+        "This issue occurs when your Outlook password does not match your Windows password. To resolve:
+         1. Ensure your Outlook password (set via mail.cwtlimited.com) matches your Windows password.
+         2. If you recently changed your Outlook password, update your Windows password as well.
+         3. Refer to the **Windows Password Reset Guide for Work From Home Users** for detailed instructions.
+         4. If the issue persists, contact the **IT department** for assistance."
+},
+
+{
+	    "instruction": "Why can't I access HR Ramco",
+	    "input": "",
+            "output": 
+                "The HR Ramco system has been permanently disabled. Use the **iHRWeb portal** at [https://ihrweb.cwtlimited.com](https://ihrweb.cwtlimited.com) to apply for leave or access HR services. If you cannot reset your password on iHRWeb, contact the **HR department** for assistance."
+},
+
+{
+	    "instruction": "What to do when I cannot connect to VPN",
+	    "input": "",
+            "output":       
+"1. Retry connecting every 10-30 minutes.
+2. Ensure your VPN password matches your email/Windows password.
+3. If unsuccessful, contact the **IT department** to set up a VPN using a Windows @cwtlimited.com account."
+},
+
+{
+	    "instruction": "Can't access my network drive",
+	    "input": "",
+            "output": 
+                "1. Double-click **CWTGLLogin.cmd** on your desktop.
+                 2. Enter your Windows ID as the username.
+                 3. Enter your password (characters will not appear for security reasons).
+                 4. Press **Enter**. If successful, the command prompt will close automatically. If not, retry with your credentials."
+},
+
+{
+	    "instruction": "How do I reset my password from home",
+	    "input": "",
+            "output": 
+               "1. Log in to [mail.cwtlimited.com](mail.cwtlimited.com) using your Windows account credentials.
+                2. Go to **Settings > Options > General > My Account** and select **Change your password**.
+                3. Ensure your new password meets the following requirements:
+                   - At least 6 characters.
+                   - Does not include your account name or username.
+                   - Includes 3 of the following: uppercase letters, lowercase letters, digits, or special characters (e.g., !, $, #).
+                4. Reconnect your VPN using the new password (if applicable).
+                5. Switch users (Windows key > User icon > Switch User, or CTRL+ALT+DEL > Switch User).
+                6. Log in with your new password."
+},
+
+{
+	    "instruction": "How do I reset my Portnet password",
+	    "input": "",
+            "output": 
+                "1. After IT resets your account, Portnet will send your username via email and password via SMS.
+                 2. Use these credentials to log in to the Portnet link.
+                 3. Upon login, click **Reset** to reset the 2FA when prompted.
+                 4. Enter your current password and set a new password (meeting the criteria).
+                 5. Reset 2FA again using the link sent to your email.
+                 6. Log in via the link, scan the QR code, and enter the 6-digit 2FA code from your authentication app.
+                 7. If the account is shared, save the QR code in a team-accessible location (e.g., OneNote, Share drive)."
+},
+
+{
+	    "instruction": "PDF can't be saved",
+	    "input": "",
+            "output": 
+                "1. Go to **Edit > Preferences > General**.
+                 2. Uncheck **Show online storage when saving files**.
+                 3. Click **OK**.
+                 4. Relaunch the PDF application."
+},
+
+{
+	    "instruction": "2FA/QR Code does not match",
+	    "input": "",
+            "output": 
+                "Ensure your phone's time setting is set to auto. 
+IPHONE: Settings > General > Date & Time > Set Automatically to ON
+ANDROID: Settings > Additional settings > Date & Time > Set time automatically"
+},
+
+{
+    "instruction": "How to search Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": "The system allows searching by different parameters such as document number, party name, or document date range.
+    If you have the exact CJV document number, this is the fastest method, as it directly retrieves the record.
+    If the document number is unknown, searching by party and date range helps narrow down the results.
+    By following these steps, you ensure an efficient and accurate retrieval of CJV records."
+},
+
+        {
+            "instruction": "How to create a Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "Click Add button to create a new CJV record,
+                Edit properties such as date and party,
+                Click Save and Select Docs page comes out,
+                Select docs for knock off and click confirm,
+                Finally, click Add CJV to generate"
+            
+        },
+        {
+    "instruction": "How to Approve/Unapprove/Cancel a Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": 
+        "1. Navigate to the Function Menu located in the top-right corner.
+         2. Select the appropriate action: Approve, Unapprove, or Cancel."
+	},
+
+        {
+    	"instruction": "What is an Audit Journal Voucher (AJV)?",
+    	"input": "",
+    	"output": "An Audit Journal Voucher (AJV) is a document specifically used to record audit adjustment entries in the accounting system."
+	},
+
+
+	{
+            "instruction": "What is Audit Journal Voucher (AJV) in Chinese",
+	    "input": "",
+            "output": 
+                "审计日志凭证（AJV）是专门用于在会计系统中记录审计调整分录的文件。"
+            
+        },
+
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "A Contra Journal Voucher (CJV) is used to facilitate internal offset billings between parties, ensuring the Statement of Account (SOA) is cleared."
+            
+        },
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV) in Chinese",
+	    "input": "",
+            "output": 
+                "抵销日志凭证（CJV）用于与对方进行内部抵销计费，以确保对账单（SOA）被清除。"
+            
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV)",
+	    "input": "",
+            "output": 
+                "The Fix Template (FJV) is designed to simplify the creation of standard recurring journal entries. Users can copy an existing FJV, make necessary updates (e.g., month description, amount changes), and use it to generate General Journal Vouchers (GJV) or Reverse Journal Vouchers (RJV)."
+           
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV) in Chinese",
+	    "input": "",
+            "output": 
+                "固定模板（FJV）是一个用于简化标准周期性日志创建的模板。用户可以复制现有的FJV，进行必要的更新（例如，月份描述、金额变化），然后生成普通日志凭证（GJV）或反向日志凭证（RJV）。"
+           
+        },
+
+	{
+            "instruction": "What is General Journal Voucher",
+	    "input": "",
+            "output": 
+                "A General Journal Voucher (GJV) is used to record accruals and provisions in the accounting system, such as monthly audit fee accruals or bonus provisions."
+            
+        },
+
+	{
+            "instruction": "What is General Journal Voucher (GJV) in Chinese",
+	    "input": "",
+            "output": 
+                "普通日志凭证（GJV）用于在会计系统中记录应计费用和准备金，例如每月审计费用应计或奖金准备金。"
+            
+        },
+
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV)",
+	    "input": "",
+            "output": 
+                "A Reverse Journal Voucher (RJV) is used to automatically reverse the current month's journal entries in the following month's accounts. This includes job accruals, deferred accruals, and AR/AP revaluations."
+            
+        },
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV) in Chinese",
+	    "input": "",
+            "output": 
+                "反向日志凭证（RJV）用于在下个月的账户中自动抵消本月的会计分录，包括工作应计、递延应计以及应收账款和应付账的重新估值。"
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV)",
+	    "input": "",
+            "output": 
+                "The Void Journal Voucher (VJV) is no longer in use. Unwanted or incorrect journal entries are canceled before they are posted to the accounts. If the entry has already been posted and the accounting period is closed, a General Journal Voucher (GJV) is created to rectify the error."
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV) in Chinese",
+	    "input": "",
+            "output": 
+                "作废日志凭证（VJV）已不再使用。我们通常在未过账到会计系统时取消不需要的或错误的日志。如果已经过账且会计期间已关闭，则通过普通日志凭证（GJV）来更正错误。"
+            
+        },
+
+
+	{
+            "instruction": "What is Period by Date Rule",
+	    "input": "",
+            "output": 
+                "The Period by Date Rule categorizes documents based on specific dates:
+                 - **Outstanding Payments (OP)**: Categorized by the Approve Date.
+                 - **Accounts (AC) and Payments (PV)**: Categorized by the Paid Date."
+        },
+
+
+
+{
+	    "instruction": "What is the difference between Close Job by Date and Billing Closed",
+	    "input": "",
+            "output": 
+                "- **Close Job by Date**: Closes all jobs (both LCL and FCL types) and their associated billings.
+                 - **Post Billing Doc**: Closes only the billing, allowing users to add new billing documents to a closed job without reopening the job."
+            
+	
+},
+
+{
+	    "instruction": "How to send the carrier SI EDI file via CargoSmart",
+	    "input": "",
+            "output": 
+                "1. Navigate to **eDocument (Generation)**.
+                 2. Select the **Carrier EDI - CargoSmart SI** format.
+                 3. Click the **Generate Report** button.
+                 4. Locate the generated record and click the **Circular Arrow** icon in the EDI column.
+                 5. In the pop-up window, choose **CargoSmart - Carrier SI**.
+                 6. Click the **Send API** button to complete the process."
+},
+
+{
+	    "instruction": "How to download Outstanding Documents and email",
+	    "input": "",
+            "output": 
+                "1. After performing a search, select the desired documents from the list.
+                 2. At the top-right corner:
+                 - Click **Save** to download the documents as a single PDF.
+                 - Click **Email as One** to send all documents compiled into one PDF.
+                 - Click **Email All** to send each document as a separate PDF."          
+},
+
+{
+	    "instruction": "What are the actions for triggering refresh P&L job via auto-refresh P&L",
+	    "input": "",
+            "output": 
+                "The following actions trigger a refresh of the P&L job via auto-refresh:
+                 1. **Job Content Updates**: Any creation or modification of job content.
+                 2. **Booking Updates**: Any creation, modification, or deletion of a booking under the job.
+                 3. **Cargo Updates**: Changes to container, package quantity, M3, or weight under the job.
+                 4. **A/C Document Approval**: Approving or unapproving any A/C documents under the job.
+                 5. **Unapproved PS Modifications**: Any changes to unapproved PS with Accrual set to Y."
+        
+},
+
+{
+	    "instruction": "How to reset my FMS password",
+	    "input": "",
+            "output": 
+                "1. Go to the **FMS login page** and click the **Reset Password** link.
+                 2. A new password will be sent to your registered email address.
+                 3. If you encounter any issues, contact the **IT department** for further assistance."
+},
+
+{
+	 "instruction": "How to reset my FMS password in Chinese",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	 "instruction": "如何重置FMS密码?",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	    "instruction": "Why does Outlook keep popping up login credentials",
+	    "input": "",
+            "output": 
+        "This issue occurs when your Outlook password does not match your Windows password. To resolve:
+         1. Ensure your Outlook password (set via mail.cwtlimited.com) matches your Windows password.
+         2. If you recently changed your Outlook password, update your Windows password as well.
+         3. Refer to the **Windows Password Reset Guide for Work From Home Users** for detailed instructions.
+         4. If the issue persists, contact the **IT department** for assistance."
+},
+
+{
+	    "instruction": "Why can't I access HR Ramco",
+	    "input": "",
+            "output": 
+                "The HR Ramco system has been permanently disabled. Use the **iHRWeb portal** at [https://ihrweb.cwtlimited.com](https://ihrweb.cwtlimited.com) to apply for leave or access HR services. If you cannot reset your password on iHRWeb, contact the **HR department** for assistance."
+},
+
+{
+	    "instruction": "What to do when I cannot connect to VPN",
+	    "input": "",
+            "output":       
+"1. Retry connecting every 10-30 minutes.
+2. Ensure your VPN password matches your email/Windows password.
+3. If unsuccessful, contact the **IT department** to set up a VPN using a Windows @cwtlimited.com account."
+},
+
+{
+	    "instruction": "Can't access my network drive",
+	    "input": "",
+            "output": 
+                "1. Double-click **CWTGLLogin.cmd** on your desktop.
+                 2. Enter your Windows ID as the username.
+                 3. Enter your password (characters will not appear for security reasons).
+                 4. Press **Enter**. If successful, the command prompt will close automatically. If not, retry with your credentials."
+},
+
+{
+	    "instruction": "How do I reset my password from home",
+	    "input": "",
+            "output": 
+               "1. Log in to [mail.cwtlimited.com](mail.cwtlimited.com) using your Windows account credentials.
+                2. Go to **Settings > Options > General > My Account** and select **Change your password**.
+                3. Ensure your new password meets the following requirements:
+                   - At least 6 characters.
+                   - Does not include your account name or username.
+                   - Includes 3 of the following: uppercase letters, lowercase letters, digits, or special characters (e.g., !, $, #).
+                4. Reconnect your VPN using the new password (if applicable).
+                5. Switch users (Windows key > User icon > Switch User, or CTRL+ALT+DEL > Switch User).
+                6. Log in with your new password."
+},
+
+{
+	    "instruction": "How do I reset my Portnet password",
+	    "input": "",
+            "output": 
+                "1. After IT resets your account, Portnet will send your username via email and password via SMS.
+                 2. Use these credentials to log in to the Portnet link.
+                 3. Upon login, click **Reset** to reset the 2FA when prompted.
+                 4. Enter your current password and set a new password (meeting the criteria).
+                 5. Reset 2FA again using the link sent to your email.
+                 6. Log in via the link, scan the QR code, and enter the 6-digit 2FA code from your authentication app.
+                 7. If the account is shared, save the QR code in a team-accessible location (e.g., OneNote, Share drive)."
+},
+
+{
+	    "instruction": "PDF can't be saved",
+	    "input": "",
+            "output": 
+                "1. Go to **Edit > Preferences > General**.
+                 2. Uncheck **Show online storage when saving files**.
+                 3. Click **OK**.
+                 4. Relaunch the PDF application."
+},
+
+{
+	    "instruction": "2FA/QR Code does not match",
+	    "input": "",
+            "output": 
+                "Ensure your phone's time setting is set to auto. 
+IPHONE: Settings > General > Date & Time > Set Automatically to ON
+ANDROID: Settings > Additional settings > Date & Time > Set time automatically"
+},
+
+{
+    "instruction": "How to search Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": "The system allows searching by different parameters such as document number, party name, or document date range.
+    If you have the exact CJV document number, this is the fastest method, as it directly retrieves the record.
+    If the document number is unknown, searching by party and date range helps narrow down the results.
+    By following these steps, you ensure an efficient and accurate retrieval of CJV records."
+},
+
+        {
+            "instruction": "How to create a Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "Click Add button to create a new CJV record,
+                Edit properties such as date and party,
+                Click Save and Select Docs page comes out,
+                Select docs for knock off and click confirm,
+                Finally, click Add CJV to generate"
+            
+        },
+        {
+    "instruction": "How to Approve/Unapprove/Cancel a Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": 
+        "1. Navigate to the Function Menu located in the top-right corner.
+         2. Select the appropriate action: Approve, Unapprove, or Cancel."
+	},
+
+        {
+    	"instruction": "What is an Audit Journal Voucher (AJV)?",
+    	"input": "",
+    	"output": "An Audit Journal Voucher (AJV) is a document specifically used to record audit adjustment entries in the accounting system."
+	},
+
+
+	{
+            "instruction": "What is Audit Journal Voucher (AJV) in Chinese",
+	    "input": "",
+            "output": 
+                "审计日志凭证（AJV）是专门用于在会计系统中记录审计调整分录的文件。"
+            
+        },
+
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "A Contra Journal Voucher (CJV) is used to facilitate internal offset billings between parties, ensuring the Statement of Account (SOA) is cleared."
+            
+        },
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV) in Chinese",
+	    "input": "",
+            "output": 
+                "抵销日志凭证（CJV）用于与对方进行内部抵销计费，以确保对账单（SOA）被清除。"
+            
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV)",
+	    "input": "",
+            "output": 
+                "The Fix Template (FJV) is designed to simplify the creation of standard recurring journal entries. Users can copy an existing FJV, make necessary updates (e.g., month description, amount changes), and use it to generate General Journal Vouchers (GJV) or Reverse Journal Vouchers (RJV)."
+           
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV) in Chinese",
+	    "input": "",
+            "output": 
+                "固定模板（FJV）是一个用于简化标准周期性日志创建的模板。用户可以复制现有的FJV，进行必要的更新（例如，月份描述、金额变化），然后生成普通日志凭证（GJV）或反向日志凭证（RJV）。"
+           
+        },
+
+	{
+            "instruction": "What is General Journal Voucher",
+	    "input": "",
+            "output": 
+                "A General Journal Voucher (GJV) is used to record accruals and provisions in the accounting system, such as monthly audit fee accruals or bonus provisions."
+            
+        },
+
+	{
+            "instruction": "What is General Journal Voucher (GJV) in Chinese",
+	    "input": "",
+            "output": 
+                "普通日志凭证（GJV）用于在会计系统中记录应计费用和准备金，例如每月审计费用应计或奖金准备金。"
+            
+        },
+
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV)",
+	    "input": "",
+            "output": 
+                "A Reverse Journal Voucher (RJV) is used to automatically reverse the current month's journal entries in the following month's accounts. This includes job accruals, deferred accruals, and AR/AP revaluations."
+            
+        },
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV) in Chinese",
+	    "input": "",
+            "output": 
+                "反向日志凭证（RJV）用于在下个月的账户中自动抵消本月的会计分录，包括工作应计、递延应计以及应收账款和应付账的重新估值。"
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV)",
+	    "input": "",
+            "output": 
+                "The Void Journal Voucher (VJV) is no longer in use. Unwanted or incorrect journal entries are canceled before they are posted to the accounts. If the entry has already been posted and the accounting period is closed, a General Journal Voucher (GJV) is created to rectify the error."
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV) in Chinese",
+	    "input": "",
+            "output": 
+                "作废日志凭证（VJV）已不再使用。我们通常在未过账到会计系统时取消不需要的或错误的日志。如果已经过账且会计期间已关闭，则通过普通日志凭证（GJV）来更正错误。"
+            
+        },
+
+
+	{
+            "instruction": "What is Period by Date Rule",
+	    "input": "",
+            "output": 
+                "The Period by Date Rule categorizes documents based on specific dates:
+                 - **Outstanding Payments (OP)**: Categorized by the Approve Date.
+                 - **Accounts (AC) and Payments (PV)**: Categorized by the Paid Date."
+        },
+
+
+
+{
+	    "instruction": "What is the difference between Close Job by Date and Billing Closed",
+	    "input": "",
+            "output": 
+                "- **Close Job by Date**: Closes all jobs (both LCL and FCL types) and their associated billings.
+                 - **Post Billing Doc**: Closes only the billing, allowing users to add new billing documents to a closed job without reopening the job."
+            
+	
+},
+
+{
+	    "instruction": "How to send the carrier SI EDI file via CargoSmart",
+	    "input": "",
+            "output": 
+                "1. Navigate to **eDocument (Generation)**.
+                 2. Select the **Carrier EDI - CargoSmart SI** format.
+                 3. Click the **Generate Report** button.
+                 4. Locate the generated record and click the **Circular Arrow** icon in the EDI column.
+                 5. In the pop-up window, choose **CargoSmart - Carrier SI**.
+                 6. Click the **Send API** button to complete the process."
+},
+
+{
+	    "instruction": "How to download Outstanding Documents and email",
+	    "input": "",
+            "output": 
+                "1. After performing a search, select the desired documents from the list.
+                 2. At the top-right corner:
+                 - Click **Save** to download the documents as a single PDF.
+                 - Click **Email as One** to send all documents compiled into one PDF.
+                 - Click **Email All** to send each document as a separate PDF."          
+},
+
+{
+	    "instruction": "What are the actions for triggering refresh P&L job via auto-refresh P&L",
+	    "input": "",
+            "output": 
+                "The following actions trigger a refresh of the P&L job via auto-refresh:
+                 1. **Job Content Updates**: Any creation or modification of job content.
+                 2. **Booking Updates**: Any creation, modification, or deletion of a booking under the job.
+                 3. **Cargo Updates**: Changes to container, package quantity, M3, or weight under the job.
+                 4. **A/C Document Approval**: Approving or unapproving any A/C documents under the job.
+                 5. **Unapproved PS Modifications**: Any changes to unapproved PS with Accrual set to Y."
+        
+},
+
+{
+	    "instruction": "How to reset my FMS password",
+	    "input": "",
+            "output": 
+                "1. Go to the **FMS login page** and click the **Reset Password** link.
+                 2. A new password will be sent to your registered email address.
+                 3. If you encounter any issues, contact the **IT department** for further assistance."
+},
+
+{
+	 "instruction": "How to reset my FMS password in Chinese",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	 "instruction": "如何重置FMS密码?",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	    "instruction": "Why does Outlook keep popping up login credentials",
+	    "input": "",
+            "output": 
+        "This issue occurs when your Outlook password does not match your Windows password. To resolve:
+         1. Ensure your Outlook password (set via mail.cwtlimited.com) matches your Windows password.
+         2. If you recently changed your Outlook password, update your Windows password as well.
+         3. Refer to the **Windows Password Reset Guide for Work From Home Users** for detailed instructions.
+         4. If the issue persists, contact the **IT department** for assistance."
+},
+
+{
+	    "instruction": "Why can't I access HR Ramco",
+	    "input": "",
+            "output": 
+                "The HR Ramco system has been permanently disabled. Use the **iHRWeb portal** at [https://ihrweb.cwtlimited.com](https://ihrweb.cwtlimited.com) to apply for leave or access HR services. If you cannot reset your password on iHRWeb, contact the **HR department** for assistance."
+},
+
+{
+	    "instruction": "What to do when I cannot connect to VPN",
+	    "input": "",
+            "output":       
+"1. Retry connecting every 10-30 minutes.
+2. Ensure your VPN password matches your email/Windows password.
+3. If unsuccessful, contact the **IT department** to set up a VPN using a Windows @cwtlimited.com account."
+},
+
+{
+	    "instruction": "Can't access my network drive",
+	    "input": "",
+            "output": 
+                "1. Double-click **CWTGLLogin.cmd** on your desktop.
+                 2. Enter your Windows ID as the username.
+                 3. Enter your password (characters will not appear for security reasons).
+                 4. Press **Enter**. If successful, the command prompt will close automatically. If not, retry with your credentials."
+},
+
+{
+	    "instruction": "How do I reset my password from home",
+	    "input": "",
+            "output": 
+               "1. Log in to [mail.cwtlimited.com](mail.cwtlimited.com) using your Windows account credentials.
+                2. Go to **Settings > Options > General > My Account** and select **Change your password**.
+                3. Ensure your new password meets the following requirements:
+                   - At least 6 characters.
+                   - Does not include your account name or username.
+                   - Includes 3 of the following: uppercase letters, lowercase letters, digits, or special characters (e.g., !, $, #).
+                4. Reconnect your VPN using the new password (if applicable).
+                5. Switch users (Windows key > User icon > Switch User, or CTRL+ALT+DEL > Switch User).
+                6. Log in with your new password."
+},
+
+{
+	    "instruction": "How do I reset my Portnet password",
+	    "input": "",
+            "output": 
+                "1. After IT resets your account, Portnet will send your username via email and password via SMS.
+                 2. Use these credentials to log in to the Portnet link.
+                 3. Upon login, click **Reset** to reset the 2FA when prompted.
+                 4. Enter your current password and set a new password (meeting the criteria).
+                 5. Reset 2FA again using the link sent to your email.
+                 6. Log in via the link, scan the QR code, and enter the 6-digit 2FA code from your authentication app.
+                 7. If the account is shared, save the QR code in a team-accessible location (e.g., OneNote, Share drive)."
+},
+
+{
+	    "instruction": "PDF can't be saved",
+	    "input": "",
+            "output": 
+                "1. Go to **Edit > Preferences > General**.
+                 2. Uncheck **Show online storage when saving files**.
+                 3. Click **OK**.
+                 4. Relaunch the PDF application."
+},
+
+{
+	    "instruction": "2FA/QR Code does not match",
+	    "input": "",
+            "output": 
+                "Ensure your phone's time setting is set to auto. 
+IPHONE: Settings > General > Date & Time > Set Automatically to ON
+ANDROID: Settings > Additional settings > Date & Time > Set time automatically"
+},
+
+{
+    "instruction": "How to search Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": "The system allows searching by different parameters such as document number, party name, or document date range.
+    If you have the exact CJV document number, this is the fastest method, as it directly retrieves the record.
+    If the document number is unknown, searching by party and date range helps narrow down the results.
+    By following these steps, you ensure an efficient and accurate retrieval of CJV records."
+},
+
+        {
+            "instruction": "How to create a Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "Click Add button to create a new CJV record,
+                Edit properties such as date and party,
+                Click Save and Select Docs page comes out,
+                Select docs for knock off and click confirm,
+                Finally, click Add CJV to generate"
+            
+        },
+        {
+    "instruction": "How to Approve/Unapprove/Cancel a Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": 
+        "1. Navigate to the Function Menu located in the top-right corner.
+         2. Select the appropriate action: Approve, Unapprove, or Cancel."
+	},
+
+        {
+    	"instruction": "What is an Audit Journal Voucher (AJV)?",
+    	"input": "",
+    	"output": "An Audit Journal Voucher (AJV) is a document specifically used to record audit adjustment entries in the accounting system."
+	},
+
+
+	{
+            "instruction": "What is Audit Journal Voucher (AJV) in Chinese",
+	    "input": "",
+            "output": 
+                "审计日志凭证（AJV）是专门用于在会计系统中记录审计调整分录的文件。"
+            
+        },
+
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "A Contra Journal Voucher (CJV) is used to facilitate internal offset billings between parties, ensuring the Statement of Account (SOA) is cleared."
+            
+        },
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV) in Chinese",
+	    "input": "",
+            "output": 
+                "抵销日志凭证（CJV）用于与对方进行内部抵销计费，以确保对账单（SOA）被清除。"
+            
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV)",
+	    "input": "",
+            "output": 
+                "The Fix Template (FJV) is designed to simplify the creation of standard recurring journal entries. Users can copy an existing FJV, make necessary updates (e.g., month description, amount changes), and use it to generate General Journal Vouchers (GJV) or Reverse Journal Vouchers (RJV)."
+           
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV) in Chinese",
+	    "input": "",
+            "output": 
+                "固定模板（FJV）是一个用于简化标准周期性日志创建的模板。用户可以复制现有的FJV，进行必要的更新（例如，月份描述、金额变化），然后生成普通日志凭证（GJV）或反向日志凭证（RJV）。"
+           
+        },
+
+	{
+            "instruction": "What is General Journal Voucher",
+	    "input": "",
+            "output": 
+                "A General Journal Voucher (GJV) is used to record accruals and provisions in the accounting system, such as monthly audit fee accruals or bonus provisions."
+            
+        },
+
+	{
+            "instruction": "What is General Journal Voucher (GJV) in Chinese",
+	    "input": "",
+            "output": 
+                "普通日志凭证（GJV）用于在会计系统中记录应计费用和准备金，例如每月审计费用应计或奖金准备金。"
+            
+        },
+
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV)",
+	    "input": "",
+            "output": 
+                "A Reverse Journal Voucher (RJV) is used to automatically reverse the current month's journal entries in the following month's accounts. This includes job accruals, deferred accruals, and AR/AP revaluations."
+            
+        },
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV) in Chinese",
+	    "input": "",
+            "output": 
+                "反向日志凭证（RJV）用于在下个月的账户中自动抵消本月的会计分录，包括工作应计、递延应计以及应收账款和应付账的重新估值。"
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV)",
+	    "input": "",
+            "output": 
+                "The Void Journal Voucher (VJV) is no longer in use. Unwanted or incorrect journal entries are canceled before they are posted to the accounts. If the entry has already been posted and the accounting period is closed, a General Journal Voucher (GJV) is created to rectify the error."
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV) in Chinese",
+	    "input": "",
+            "output": 
+                "作废日志凭证（VJV）已不再使用。我们通常在未过账到会计系统时取消不需要的或错误的日志。如果已经过账且会计期间已关闭，则通过普通日志凭证（GJV）来更正错误。"
+            
+        },
+
+
+	{
+            "instruction": "What is Period by Date Rule",
+	    "input": "",
+            "output": 
+                "The Period by Date Rule categorizes documents based on specific dates:
+                 - **Outstanding Payments (OP)**: Categorized by the Approve Date.
+                 - **Accounts (AC) and Payments (PV)**: Categorized by the Paid Date."
+        },
+
+
+
+{
+	    "instruction": "What is the difference between Close Job by Date and Billing Closed",
+	    "input": "",
+            "output": 
+                "- **Close Job by Date**: Closes all jobs (both LCL and FCL types) and their associated billings.
+                 - **Post Billing Doc**: Closes only the billing, allowing users to add new billing documents to a closed job without reopening the job."
+            
+	
+},
+
+{
+	    "instruction": "How to send the carrier SI EDI file via CargoSmart",
+	    "input": "",
+            "output": 
+                "1. Navigate to **eDocument (Generation)**.
+                 2. Select the **Carrier EDI - CargoSmart SI** format.
+                 3. Click the **Generate Report** button.
+                 4. Locate the generated record and click the **Circular Arrow** icon in the EDI column.
+                 5. In the pop-up window, choose **CargoSmart - Carrier SI**.
+                 6. Click the **Send API** button to complete the process."
+},
+
+{
+	    "instruction": "How to download Outstanding Documents and email",
+	    "input": "",
+            "output": 
+                "1. After performing a search, select the desired documents from the list.
+                 2. At the top-right corner:
+                 - Click **Save** to download the documents as a single PDF.
+                 - Click **Email as One** to send all documents compiled into one PDF.
+                 - Click **Email All** to send each document as a separate PDF."          
+},
+
+{
+	    "instruction": "What are the actions for triggering refresh P&L job via auto-refresh P&L",
+	    "input": "",
+            "output": 
+                "The following actions trigger a refresh of the P&L job via auto-refresh:
+                 1. **Job Content Updates**: Any creation or modification of job content.
+                 2. **Booking Updates**: Any creation, modification, or deletion of a booking under the job.
+                 3. **Cargo Updates**: Changes to container, package quantity, M3, or weight under the job.
+                 4. **A/C Document Approval**: Approving or unapproving any A/C documents under the job.
+                 5. **Unapproved PS Modifications**: Any changes to unapproved PS with Accrual set to Y."
+        
+},
+
+{
+	    "instruction": "How to reset my FMS password",
+	    "input": "",
+            "output": 
+                "1. Go to the **FMS login page** and click the **Reset Password** link.
+                 2. A new password will be sent to your registered email address.
+                 3. If you encounter any issues, contact the **IT department** for further assistance."
+},
+
+{
+	 "instruction": "How to reset my FMS password in Chinese",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	 "instruction": "如何重置FMS密码?",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	    "instruction": "Why does Outlook keep popping up login credentials",
+	    "input": "",
+            "output": 
+        "This issue occurs when your Outlook password does not match your Windows password. To resolve:
+         1. Ensure your Outlook password (set via mail.cwtlimited.com) matches your Windows password.
+         2. If you recently changed your Outlook password, update your Windows password as well.
+         3. Refer to the **Windows Password Reset Guide for Work From Home Users** for detailed instructions.
+         4. If the issue persists, contact the **IT department** for assistance."
+},
+
+{
+	    "instruction": "Why can't I access HR Ramco",
+	    "input": "",
+            "output": 
+                "The HR Ramco system has been permanently disabled. Use the **iHRWeb portal** at [https://ihrweb.cwtlimited.com](https://ihrweb.cwtlimited.com) to apply for leave or access HR services. If you cannot reset your password on iHRWeb, contact the **HR department** for assistance."
+},
+
+{
+	    "instruction": "What to do when I cannot connect to VPN",
+	    "input": "",
+            "output":       
+"1. Retry connecting every 10-30 minutes.
+2. Ensure your VPN password matches your email/Windows password.
+3. If unsuccessful, contact the **IT department** to set up a VPN using a Windows @cwtlimited.com account."
+},
+
+{
+	    "instruction": "Can't access my network drive",
+	    "input": "",
+            "output": 
+                "1. Double-click **CWTGLLogin.cmd** on your desktop.
+                 2. Enter your Windows ID as the username.
+                 3. Enter your password (characters will not appear for security reasons).
+                 4. Press **Enter**. If successful, the command prompt will close automatically. If not, retry with your credentials."
+},
+
+{
+	    "instruction": "How do I reset my password from home",
+	    "input": "",
+            "output": 
+               "1. Log in to [mail.cwtlimited.com](mail.cwtlimited.com) using your Windows account credentials.
+                2. Go to **Settings > Options > General > My Account** and select **Change your password**.
+                3. Ensure your new password meets the following requirements:
+                   - At least 6 characters.
+                   - Does not include your account name or username.
+                   - Includes 3 of the following: uppercase letters, lowercase letters, digits, or special characters (e.g., !, $, #).
+                4. Reconnect your VPN using the new password (if applicable).
+                5. Switch users (Windows key > User icon > Switch User, or CTRL+ALT+DEL > Switch User).
+                6. Log in with your new password."
+},
+
+{
+	    "instruction": "How do I reset my Portnet password",
+	    "input": "",
+            "output": 
+                "1. After IT resets your account, Portnet will send your username via email and password via SMS.
+                 2. Use these credentials to log in to the Portnet link.
+                 3. Upon login, click **Reset** to reset the 2FA when prompted.
+                 4. Enter your current password and set a new password (meeting the criteria).
+                 5. Reset 2FA again using the link sent to your email.
+                 6. Log in via the link, scan the QR code, and enter the 6-digit 2FA code from your authentication app.
+                 7. If the account is shared, save the QR code in a team-accessible location (e.g., OneNote, Share drive)."
+},
+
+{
+	    "instruction": "PDF can't be saved",
+	    "input": "",
+            "output": 
+                "1. Go to **Edit > Preferences > General**.
+                 2. Uncheck **Show online storage when saving files**.
+                 3. Click **OK**.
+                 4. Relaunch the PDF application."
+},
+
+{
+	    "instruction": "2FA/QR Code does not match",
+	    "input": "",
+            "output": 
+                "Ensure your phone's time setting is set to auto. 
+IPHONE: Settings > General > Date & Time > Set Automatically to ON
+ANDROID: Settings > Additional settings > Date & Time > Set time automatically"
+},
+
+{
+    "instruction": "How to search Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": "The system allows searching by different parameters such as document number, party name, or document date range.
+    If you have the exact CJV document number, this is the fastest method, as it directly retrieves the record.
+    If the document number is unknown, searching by party and date range helps narrow down the results.
+    By following these steps, you ensure an efficient and accurate retrieval of CJV records."
+},
+
+        {
+            "instruction": "How to create a Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "Click Add button to create a new CJV record,
+                Edit properties such as date and party,
+                Click Save and Select Docs page comes out,
+                Select docs for knock off and click confirm,
+                Finally, click Add CJV to generate"
+            
+        },
+        {
+    "instruction": "How to Approve/Unapprove/Cancel a Contra Journal Voucher (CJV)",
+    "input": "",
+    "output": 
+        "1. Navigate to the Function Menu located in the top-right corner.
+         2. Select the appropriate action: Approve, Unapprove, or Cancel."
+	},
+
+        {
+    	"instruction": "What is an Audit Journal Voucher (AJV)?",
+    	"input": "",
+    	"output": "An Audit Journal Voucher (AJV) is a document specifically used to record audit adjustment entries in the accounting system."
+	},
+
+
+	{
+            "instruction": "What is Audit Journal Voucher (AJV) in Chinese",
+	    "input": "",
+            "output": 
+                "审计日志凭证（AJV）是专门用于在会计系统中记录审计调整分录的文件。"
+            
+        },
+
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV)",
+	    "input": "",
+            "output": 
+                "A Contra Journal Voucher (CJV) is used to facilitate internal offset billings between parties, ensuring the Statement of Account (SOA) is cleared."
+            
+        },
+
+	{
+            "instruction": "What is Contra Journal Voucher (CJV) in Chinese",
+	    "input": "",
+            "output": 
+                "抵销日志凭证（CJV）用于与对方进行内部抵销计费，以确保对账单（SOA）被清除。"
+            
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV)",
+	    "input": "",
+            "output": 
+                "The Fix Template (FJV) is designed to simplify the creation of standard recurring journal entries. Users can copy an existing FJV, make necessary updates (e.g., month description, amount changes), and use it to generate General Journal Vouchers (GJV) or Reverse Journal Vouchers (RJV)."
+           
+        },
+
+	{
+            "instruction": "What is Fix Template (FJV) in Chinese",
+	    "input": "",
+            "output": 
+                "固定模板（FJV）是一个用于简化标准周期性日志创建的模板。用户可以复制现有的FJV，进行必要的更新（例如，月份描述、金额变化），然后生成普通日志凭证（GJV）或反向日志凭证（RJV）。"
+           
+        },
+
+	{
+            "instruction": "What is General Journal Voucher",
+	    "input": "",
+            "output": 
+                "A General Journal Voucher (GJV) is used to record accruals and provisions in the accounting system, such as monthly audit fee accruals or bonus provisions."
+            
+        },
+
+	{
+            "instruction": "What is General Journal Voucher (GJV) in Chinese",
+	    "input": "",
+            "output": 
+                "普通日志凭证（GJV）用于在会计系统中记录应计费用和准备金，例如每月审计费用应计或奖金准备金。"
+            
+        },
+
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV)",
+	    "input": "",
+            "output": 
+                "A Reverse Journal Voucher (RJV) is used to automatically reverse the current month's journal entries in the following month's accounts. This includes job accruals, deferred accruals, and AR/AP revaluations."
+            
+        },
+
+	{
+            "instruction": "What is Reverse Journal Voucher (RJV) in Chinese",
+	    "input": "",
+            "output": 
+                "反向日志凭证（RJV）用于在下个月的账户中自动抵消本月的会计分录，包括工作应计、递延应计以及应收账款和应付账的重新估值。"
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV)",
+	    "input": "",
+            "output": 
+                "The Void Journal Voucher (VJV) is no longer in use. Unwanted or incorrect journal entries are canceled before they are posted to the accounts. If the entry has already been posted and the accounting period is closed, a General Journal Voucher (GJV) is created to rectify the error."
+            
+        },
+
+	{
+            "instruction": "What is Void Journal Voucher (VJV) in Chinese",
+	    "input": "",
+            "output": 
+                "作废日志凭证（VJV）已不再使用。我们通常在未过账到会计系统时取消不需要的或错误的日志。如果已经过账且会计期间已关闭，则通过普通日志凭证（GJV）来更正错误。"
+            
+        },
+
+
+	{
+            "instruction": "What is Period by Date Rule",
+	    "input": "",
+            "output": 
+                "The Period by Date Rule categorizes documents based on specific dates:
+                 - **Outstanding Payments (OP)**: Categorized by the Approve Date.
+                 - **Accounts (AC) and Payments (PV)**: Categorized by the Paid Date."
+        },
+
+
+
+{
+	    "instruction": "What is the difference between Close Job by Date and Billing Closed",
+	    "input": "",
+            "output": 
+                "- **Close Job by Date**: Closes all jobs (both LCL and FCL types) and their associated billings.
+                 - **Post Billing Doc**: Closes only the billing, allowing users to add new billing documents to a closed job without reopening the job."
+            
+	
+},
+
+{
+	    "instruction": "How to send the carrier SI EDI file via CargoSmart",
+	    "input": "",
+            "output": 
+                "1. Navigate to **eDocument (Generation)**.
+                 2. Select the **Carrier EDI - CargoSmart SI** format.
+                 3. Click the **Generate Report** button.
+                 4. Locate the generated record and click the **Circular Arrow** icon in the EDI column.
+                 5. In the pop-up window, choose **CargoSmart - Carrier SI**.
+                 6. Click the **Send API** button to complete the process."
+},
+
+{
+	    "instruction": "How to download Outstanding Documents and email",
+	    "input": "",
+            "output": 
+                "1. After performing a search, select the desired documents from the list.
+                 2. At the top-right corner:
+                 - Click **Save** to download the documents as a single PDF.
+                 - Click **Email as One** to send all documents compiled into one PDF.
+                 - Click **Email All** to send each document as a separate PDF."          
+},
+
+{
+	    "instruction": "What are the actions for triggering refresh P&L job via auto-refresh P&L",
+	    "input": "",
+            "output": 
+                "The following actions trigger a refresh of the P&L job via auto-refresh:
+                 1. **Job Content Updates**: Any creation or modification of job content.
+                 2. **Booking Updates**: Any creation, modification, or deletion of a booking under the job.
+                 3. **Cargo Updates**: Changes to container, package quantity, M3, or weight under the job.
+                 4. **A/C Document Approval**: Approving or unapproving any A/C documents under the job.
+                 5. **Unapproved PS Modifications**: Any changes to unapproved PS with Accrual set to Y."
+        
+},
+
+{
+	    "instruction": "How to reset my FMS password",
+	    "input": "",
+            "output": 
+                "1. Go to the **FMS login page** and click the **Reset Password** link.
+                 2. A new password will be sent to your registered email address.
+                 3. If you encounter any issues, contact the **IT department** for further assistance."
+},
+
+{
+	 "instruction": "How to reset my FMS password in Chinese",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	 "instruction": "如何重置FMS密码?",
+	 "input": "",
+         "output": 
+                "1.登入FMS系统后，点击“重置密码”或“忘记密码”的选项。
+		2. 系统会通过点击“发送密码”或“重置密码”按钮，将新密码发送至您的注册邮箱。
+		3. 若操作中遇到问题，请联系IT部门。
+		请注意：以上方法仅适用于ChatFMS系统的密码重置流程。如您使用其他系统，请参考其相应的密码重置指引。"
+},
+
+{
+	    "instruction": "Why does Outlook keep popping up login credentials",
+	    "input": "",
+            "output": 
+        "This issue occurs when your Outlook password does not match your Windows password. To resolve:
+         1. Ensure your Outlook password (set via mail.cwtlimited.com) matches your Windows password.
+         2. If you recently changed your Outlook password, update your Windows password as well.
+         3. Refer to the **Windows Password Reset Guide for Work From Home Users** for detailed instructions.
+         4. If the issue persists, contact the **IT department** for assistance."
+},
+
+{
+	    "instruction": "Why can't I access HR Ramco",
+	    "input": "",
+            "output": 
+                "The HR Ramco system has been permanently disabled. Use the **iHRWeb portal** at [https://ihrweb.cwtlimited.com](https://ihrweb.cwtlimited.com) to apply for leave or access HR services. If you cannot reset your password on iHRWeb, contact the **HR department** for assistance."
+},
+
+{
+	    "instruction": "What to do when I cannot connect to VPN",
+	    "input": "",
+            "output":       
+"1. Retry connecting every 10-30 minutes.
+2. Ensure your VPN password matches your email/Windows password.
+3. If unsuccessful, contact the **IT department** to set up a VPN using a Windows @cwtlimited.com account."
+},
+
+{
+	    "instruction": "Can't access my network drive",
+	    "input": "",
+            "output": 
+                "1. Double-click **CWTGLLogin.cmd** on your desktop.
+                 2. Enter your Windows ID as the username.
+                 3. Enter your password (characters will not appear for security reasons).
+                 4. Press **Enter**. If successful, the command prompt will close automatically. If not, retry with your credentials."
+},
+
+{
+	    "instruction": "How do I reset my password from home",
+	    "input": "",
+            "output": 
+               "1. Log in to [mail.cwtlimited.com](mail.cwtlimited.com) using your Windows account credentials.
+                2. Go to **Settings > Options > General > My Account** and select **Change your password**.
+                3. Ensure your new password meets the following requirements:
+                   - At least 6 characters.
+                   - Does not include your account name or username.
+                   - Includes 3 of the following: uppercase letters, lowercase letters, digits, or special characters (e.g., !, $, #).
+                4. Reconnect your VPN using the new password (if applicable).
+                5. Switch users (Windows key > User icon > Switch User, or CTRL+ALT+DEL > Switch User).
+                6. Log in with your new password."
+},
+
+{
+	    "instruction": "How do I reset my Portnet password",
+	    "input": "",
+            "output": 
+                "1. After IT resets your account, Portnet will send your username via email and password via SMS.
+                 2. Use these credentials to log in to the Portnet link.
+                 3. Upon login, click **Reset** to reset the 2FA when prompted.
+                 4. Enter your current password and set a new password (meeting the criteria).
+                 5. Reset 2FA again using the link sent to your email.
+                 6. Log in via the link, scan the QR code, and enter the 6-digit 2FA code from your authentication app.
+                 7. If the account is shared, save the QR code in a team-accessible location (e.g., OneNote, Share drive)."
+},
+
+{
+	    "instruction": "PDF can't be saved",
+	    "input": "",
+            "output": 
+                "1. Go to **Edit > Preferences > General**.
+                 2. Uncheck **Show online storage when saving files**.
+                 3. Click **OK**.
+                 4. Relaunch the PDF application."
+},
+
+{
+	    "instruction": "2FA/QR Code does not match",
+	    "input": "",
+            "output": 
+                "Ensure your phone's time setting is set to auto. 
+IPHONE: Settings > General > Date & Time > Set Automatically to ON
+ANDROID: Settings > Additional settings > Date & Time > Set time automatically"
+}
+
+]
+
+

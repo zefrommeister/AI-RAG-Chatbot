@@ -1,0 +1,14 @@
+flask
+flask_cors
+llama-index
+llama-index-embeddings.huggingface
+transformers
+torch
+huggingface-hub
+tqdm
+PyPDF2 
+python-docx
+llama-index-llms-huggingface
+pytesseract
+opencv-python
+pandas

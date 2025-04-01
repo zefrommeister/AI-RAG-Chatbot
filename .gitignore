@@ -1,0 +1,6 @@
+documents/
+model_env/
+openssl-1.1.1t/
+Python-3.9.9/
+vector_store_cache.pkl
+chat_cache.json
