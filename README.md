@@ -25,4 +25,6 @@ This will install all the necessary libraries for running the model and Flask AP
 ### `vector_store_cache.pkl`
 This is the **cache of the JSON files** used for storing the vector index. It speeds up the process of chunking documents into the vector database, which is used by the **RAG retriever** for improved performance in document retrieval.
 
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/233b7b6a-3f21-4615-8ee0-678191df15b8)
+
 
